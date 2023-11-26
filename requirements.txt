@@ -1,0 +1,4 @@
+pandas==2.0.0
+streamlit==1.28.0
+streamlit_plotly_events
+plotly==5.14.1
