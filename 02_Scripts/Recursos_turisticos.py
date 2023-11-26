@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 #%%
-df0 = pd.read_csv(Path(__file__).parent.parent / "01_Data\Inventario_recursos_turisticos.csv", encoding='latin', sep=';')
+df0 = pd.read_csv(Path(__file__).parent.parent / "01_Data/Inventario_recursos_turisticos.csv", encoding='latin', sep=';')
 dflima = df0.loc[df0["REGIÓN"]=='Lima'].dropna(subset=["LATITUD","LONGITUD"]).rename({'LATITUD':'LONGITUD','LONGITUD':'LATITUD'}, axis=1)
 dflima["CATEGORÍA"] = dflima["CATEGORÍA"].astype('category')
 dflima.index = range(dflima.shape[0])
