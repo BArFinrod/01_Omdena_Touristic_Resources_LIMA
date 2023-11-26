@@ -16,6 +16,8 @@ Touristic resources were grouped by type:
 
 The App allow the user to interact and select a group of resources in order to gather information about each in a table.
 
+This App is available in: https://01omdenatouristicresourceslima-2hy5k4dfbugzunegeqd8nv.streamlit.app/
+
 ## Charts
 ![Alt text](03_Images/Dashboard_img1.png)
 
